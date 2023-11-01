@@ -143,3 +143,7 @@ Além do JSON Web Token (JWT), existem várias outras estratégias de autentica�
 - **Desvantagens**: Pode ser caro de implementar, requisitos de hardware e preocupações de privacidade.
 
 Em síntese, cada estratégia de autenticação tem suas próprias aplicações e considerações de segurança. A escolha da estratégia depende dos requisitos do seu sistema, da experiência do usuário e da segurança necessária. É importante avaliar a estratégia mais adequada com base no contexto específico do seu projeto.
+
+##
+
+### [Retornar à Página Principal](../README.md)
