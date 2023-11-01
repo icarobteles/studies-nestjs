@@ -15,6 +15,10 @@ Nesta branch, você encontrará:
 - Exemplos de como criar e validar tokens JWT com o Nest.js.
 - Práticas e exercícios para aprofundar seu conhecimento em autenticação baseada em tokens.
 
+## Anotações
+
+- [Entendendo o JWT](./docs/JWT.md)
+
 ## Tecnologias Utilizadas
 
 - Framework: Nest.js
