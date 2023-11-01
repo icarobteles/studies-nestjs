@@ -1,24 +1,36 @@
-# Repositório de Estudos: Framework Nest.js
+# Framework Nest.js: Autenticação via JWT
 
 <div align="center">
-    <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nest-js-icon.png" alt="Nest.js Logo" />
+    <img width="100%" src="https://miro.medium.com/v2/resize:fit:1400/1*-hmwuf8jE2c7fPdMzX9_0w.jpeg" alt="JWT Logo" />
 </div>
 
-Este repositório é dedicado aos meus estudos e práticas relacionados ao framework Nest.js. Aqui, você encontrará anotações detalhadas, códigos de exemplo e projetos relacionados ao Nest.js. O repositório está organizado em branches separadas para cada tópico específico.
+Esta branch é dedicada ao estudo e práticas relacionados ao uso de JSON Web Tokens (JWT) com o framework Nest.js.
+Aqui, você encontrará informações detalhadas sobre a implementação de autenticação com JWT em suas aplicações Nest.js.
 
-## Branchs
+## Conteúdo
 
-- [Branch Principal (Main)](../../tree/main): Este é o branch principal do repositório. Contém informações gerais sobre o repositório de estudos e fornece uma visão geral das diferentes branches disponíveis.
+Nesta branch, você encontrará:
 
-- [Branch JWT](../../tree/nestjs/jwt): Nesta branch, você encontrará anotações e práticas relacionadas ao uso de JWT (JSON Web Tokens) com Nest.js. Aprenda a autenticar e proteger suas aplicações com tokens de maneira eficaz.
+- Anotações detalhadas sobre JWT e sua importância na segurança de aplicações web.
+- Exemplos de como criar e validar tokens JWT com o Nest.js.
+- Práticas e exercícios para aprofundar seu conhecimento em autenticação baseada em tokens.
 
-- [Branch CRUD](../../tree/nestjs/crud): Esta branch é dedicada ao desenvolvimento de operações CRUD (Create, Read, Update, Delete) com o Nest.js. Explore como criar APIs robustas para gerenciar dados.
+## Tecnologias Utilizadas
 
-- Demais branchs serão acrescentadas aqui à medida que forem criadas...
+- Framework: Nest.js
+- Linguagem: TypeScript
+- JSON Web Token (JWT)
+- Passport.js
 
 ## Como Usar
 
-Para acessar o conteúdo de uma branch específica, navegue até a página de branch correspondente. Lá, você encontrará anotações detalhadas, códigos de exemplo e práticas relacionadas a esse tópico específico.
+Para acessar o conteúdo desta branch, você pode clonar o repositório e alternar para o branch "nestjs/jwt" usando os seguintes comandos:
+
+```bash
+    git clone https://github.com/icarobteles/studies-nestjs.git
+    cd studies-nestjs
+    git checkout nestjs/jwt
+```
 
 ## Contribuições
 
@@ -29,3 +41,7 @@ Se você deseja contribuir com seu próprio conhecimento ou aprimorar o conteúd
 Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo. Você pode me encontrar no [LinkedIn](https://www.linkedin.com/icarobteles) ou pelo [e-mail](mailto:odevicaroteles@gmail.com).
 
 Aproveite seu aprendizado com Nest.js!
+
+##
+
+### [Retornar à Branch Principal (Main)](../../tree/main)
