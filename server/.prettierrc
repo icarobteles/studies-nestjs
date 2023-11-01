@@ -1,4 +1,8 @@
 {
-  "singleQuote": true,
+  "singleQuote": false,
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "semi": true,
+  "editorconfig": true,
   "trailingComma": "all"
 }
