@@ -25,3 +25,8 @@ Content-Type: application/json
   "username": "marydoe",
   "password": "123456"
 }
+
+###
+
+GET http://localhost:3000/auth/test-auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjMjJlMjRiNC04MzdhLTRhMGQtOTQ0MC03YjU0ZTdkZDI5Y2EiLCJ1c2VybmFtZSI6ImpvaG5kb2UiLCJpYXQiOjE2OTg5NDkyNjcsImV4cCI6MTY5ODk0OTMyN30.M9CIf2MsfOkrzruGPsPC1YxSIxoXVWXQzZkblT2eMvY

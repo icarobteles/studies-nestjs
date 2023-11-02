@@ -7,6 +7,7 @@ export abstract class UserRepository {
   abstract save(user: User): Promise<void>;
 }
 
+// Interface que descreve os dados necessários para criar um usuário.
 interface IUserData {
   username: string;
   password: string;
@@ -21,6 +22,7 @@ export class InMemoryUserRepository implements UserRepository {
     this.generateUsers([{ username: "johndoe", password: "123456" }]);
   }
 
+  // Método privado para gerar e salvar usuários com base nos dados fornecidos.
   private generateUsers(usersDatas: IUserData[]) {
     for (const { username, password } of usersDatas) {
       const user = User.create(username, password);
