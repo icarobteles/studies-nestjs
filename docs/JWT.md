@@ -146,4 +146,6 @@ Em síntese, cada estratégia de autenticação tem suas próprias aplicações 
 
 ##
 
-### [Retornar à Página Principal](../README.md)
+### 🔒 [Exemplo de Estratégia para Gerar um Token JWT](../server/jwt.ts)
+
+### 🔙 [Retornar à Página Principal](../README.md)
