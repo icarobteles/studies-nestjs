@@ -11,7 +11,7 @@ import { UserModule } from "../user/user.module";
     JwtModule.register({
       secret: process.env.JWT_SECRET_KEY,
       signOptions: {
-        expiresIn: "60s", // O token gerado será expirado após 30 minutos
+        expiresIn: "15m", // O token gerado será expirado após 15 minutos
       },
     }),
     UserModule, // Importação do módulo de usuário para acesso a funcionalidades relacionadas a usuários.

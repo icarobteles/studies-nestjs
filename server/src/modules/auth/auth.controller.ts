@@ -16,6 +16,10 @@ interface AuthDTO {
   password: string;
 }
 
+interface ReauthDTO {
+  refreshToken: string;
+}
+
 @Controller("auth")
 export class AuthController {
   constructor(private authService: AuthService) {}
@@ -29,6 +33,11 @@ export class AuthController {
   @Post("signup")
   signup(@Body() { username, password }: AuthDTO) {
     return this.authService.signup(username, password);
+  }
+
+  @Post("refresh")
+  reauthenticate(@Body() { refreshToken }: ReauthDTO) {
+    return this.authService.reauthenticate(refreshToken);
   }
 
   // Rota de teste de autenticação protegida pelo guardião (AuthGuard).
