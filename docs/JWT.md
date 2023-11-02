@@ -146,6 +146,8 @@ Em síntese, cada estratégia de autenticação tem suas próprias aplicações 
 
 ##
 
-### 🔒 [Exemplo de Estratégia para Gerar um Token JWT](../server/jwt.ts)
+### 🔒 [Exemplo de Estratégia para Gerar um Token JWT com Node.js Puro + Dotenv](../server/jwt.ts)
+
+### 🧑‍💻 [Exemplo de Implementação de Rotas de Autenticação JWT com Nest.js](../server/README.md)
 
 ### 🔙 [Retornar à Página Principal](../README.md)

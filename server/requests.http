@@ -1,0 +1,27 @@
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "username": "johndoe",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "marydoe",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "username": "marydoe",
+  "password": "123456"
+}
